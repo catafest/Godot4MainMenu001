@@ -1,2 +1,8 @@
 # Godot4MainMenu001
- simple godot 4.1 example  with main menu and exit features
+ simple Godot 4.1 example  with main menu and exit features.
+ 
+ If you make changes then you need to restore the links between the signals and the main script.
+ 
+ In this case, it is possible to add the source code for it and not work during the build.
+ 
+ see [this video](https://www.youtube.com/watch?v=eNOf1ATRTPU) from my youtube channel.
