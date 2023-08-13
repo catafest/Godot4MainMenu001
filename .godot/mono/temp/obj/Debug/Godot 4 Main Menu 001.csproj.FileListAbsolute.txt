@@ -1,0 +1,18 @@
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.csproj.AssemblyReference.cache
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.GeneratedMSBuildEditorConfig.editorconfig
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.AssemblyInfoInputs.cache
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.AssemblyInfo.cs
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.csproj.CoreCompileInputs.cache
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\Godot 4 Main Menu 001.deps.json
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\Godot 4 Main Menu 001.runtimeconfig.json
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\Godot 4 Main Menu 001.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\Godot 4 Main Menu 001.pdb
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.csproj.CopyComplete
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\refint\Godot 4 Main Menu 001.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.pdb
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.genruntimeconfig.cache
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\ref\Godot 4 Main Menu 001.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\Godot 4 Main Menu 001.sourcelink.json

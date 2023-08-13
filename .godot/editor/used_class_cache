@@ -1,0 +1,4 @@
+res://icon.svg::1691440825::43b305bd3d55f8faec5e5175cbe35533::CompressedTexture2D
+res://MainMenu.cs::1691445075::bcf3e2e752fc2dd8b4b396eebce1977c::CSharpScript
+res://menu.tscn::1691497124::847c4edc7a55afa4144fdf41bfebc416::PackedScene,Control,MarginContainer,VBoxContainer,Label,Button
+res://node_2d.tscn::1691497124::45c32b67721aaeb0076917388427901c::PackedScene,Node2D
