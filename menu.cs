@@ -6,6 +6,7 @@ public partial class menu : Control
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
+		
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -40,5 +41,26 @@ public partial class menu : Control
 		GD.Print("Back button");
 		GetTree().ChangeSceneToFile("res://menu.tscn");
 	}
+	
+	private void _on_check_button_toggled(bool button_pressed)
+	{
+		// Replace with function body.
+		
+		var streamPlayer = GetNode<AudioStreamPlayer2D>("AudioStreamPlayer2D");
+		streamPlayer.Stream = GD.Load<AudioStream>("res://ship-radar.wav");
+		if(button_pressed) 
+		{ 
+			GD.Print("CheckButton sound : ", button_pressed);
+			streamPlayer.Play();
+		}
+		else 
+		{
+			GD.Print("CheckButton sound : ", button_pressed);
+			streamPlayer.Stop();
+		}
+	}
 // top level closed
 }
+
+
+
