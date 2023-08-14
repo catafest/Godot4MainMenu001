@@ -15,3 +15,4 @@ C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\refint\UnnamedProj
 C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\UnnamedProject.pdb
 C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\UnnamedProject.genruntimeconfig.cache
 C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\ref\UnnamedProject.dll
+C:\GodotProjects\Godot4MainMenu001\.godot\mono\temp\obj\Debug\UnnamedProject.sourcelink.json
