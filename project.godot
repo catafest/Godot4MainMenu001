@@ -14,6 +14,11 @@ config/name="Godot4MainMenu001"
 run/main_scene="res://menu.tscn"
 config/features=PackedStringArray("4.1", "C#")
 
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=480
+
 [dotnet]
 
 project/assembly_name="UnnamedProject"
@@ -21,3 +26,4 @@ project/assembly_name="UnnamedProject"
 [rendering]
 
 renderer/rendering_method="gl_compatibility"
+anti_aliasing/quality/msaa_2d=1
