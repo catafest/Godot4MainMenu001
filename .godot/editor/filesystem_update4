@@ -1,4 +1,6 @@
 res://menu.tscn
 res://options.tscn
+res://chat.tscn
 res://play.tscn
+res://auth.tscn
 res://menu.cs

@@ -34,6 +34,12 @@ public partial class menu : Control
 		GD.Print("Play button");
 		GetTree().ChangeSceneToFile("res://play.tscn");
 	}
+	private void _on_texture_button_pressed()
+	{
+		// Replace with function body.
+		GD.Print("Chat scene");
+		GetTree().ChangeSceneToFile("res://chat.tscn");
+	}
 	//
 	private void _on_back_pressed()
 	{
