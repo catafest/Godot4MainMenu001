@@ -25,5 +25,6 @@ project/assembly_name="UnnamedProject"
 
 [rendering]
 
+textures/canvas_textures/default_texture_repeat=1
 renderer/rendering_method="gl_compatibility"
 anti_aliasing/quality/msaa_2d=1

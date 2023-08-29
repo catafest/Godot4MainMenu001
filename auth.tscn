@@ -1,0 +1,93 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhmqn4mk2a0fg"]
+
+[ext_resource type="Script" path="res://menu.cs" id="1_av6sr"]
+
+[sub_resource type="CSharpScript" id="CSharpScript_n0ykv"]
+script/source = "using Godot;
+using GPGS;
+using System;
+
+public class AuthenticationScreen : Control
+{
+	public override void _Ready()
+	{
+		// Initialize the Google Play Games Services module
+		GPGS.Instance.Initialize();
+
+		// Connect the button's pressed signal to the _OnSignInButtonPressed method
+		Button signInButton = GetNode<Button>(\"SignInButton\");
+		signInButton.Connect(\"pressed\", this, \"_OnSignInButtonPressed\");
+	}
+
+	private void _OnSignInButtonPressed()
+	{
+		// Try to sign in using Google Sign-In
+		GPGS.Instance.SignIn((bool success) =>
+		{
+			if (success)
+			{
+				// User is successfully authenticated
+				GD.Print(\"User is authenticated.\");
+				// You can now proceed with the game or other actions.
+			}
+			else
+			{
+				// Authentication failed
+				GD.Print(\"Authentication failed.\");
+			}
+		});
+	}
+}
+"
+
+[node name="menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_av6sr")
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 208.0
+offset_top = -232.0
+offset_right = 308.0
+offset_bottom = -171.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+custom_minimum_size = Vector2(100, 50)
+layout_direction = 1
+layout_mode = 2
+
+[node name="Label" type="Label" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "AUTH SCENE"
+horizontal_alignment = 1
+
+[node name="Back" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Back"
+
+[node name="SignInButton" type="Button" parent="MarginContainer/VBoxContainer"]
+layout_mode = 2
+text = "Sign In
+Google"
+script = SubResource("CSharpScript_n0ykv")
+
+[node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 518.0
+offset_bottom = 468.0
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/Back" to="." method="_on_back_pressed"]
